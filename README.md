@@ -2,9 +2,9 @@
 
 ## Symptom
 
-Rest spread operator fails to parse when importing src from node module.
+**Rest spread operator fails to parse when importing from node module.**
 
-The operator is properly complied though when used in the local source (see `works` branch - _note the copied source from node module_).
+The operator is properly complied though when used in the local source (see the [`works`](https://github.com/aaemnnosttv/laravel-mix-rest-spread-issue/tree/works) branch - _note the copied source from node module_).
 
 ```
 Module parse failed: Unexpected token (271:8)
